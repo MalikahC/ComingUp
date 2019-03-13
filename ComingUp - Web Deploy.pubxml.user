@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATW5Bic4CF0ifXZA4mNMXcAAAAAACAAAAAAAQZgAAAAEAACAAAACF8lAeLpaWQY2Gkz0CuH6NNeFyog6pjESnYpHeJlYzvgAAAAAOgAAAAAIAACAAAAAViw+L19ul1OIrHz+/FxN+hjPGi43V9BflSWjIaEuEd4AAAAAGWhfJ95PQPKdfZ3z871h4qXMrfeZZHcgxflqugp/CX4722dl99ATVvoPcZ0FPI5vbHc+xVwr0Uv5+E21c09kqAMCeRAFE/iFNaspQk8V/5rlIgWQ5ycAYwoq01w2WnZVTO06+knrYwNUpCo2L6SPr21lOjwgqvZr3BNBE1XNWQUAAAAD71PjZ67spsv4hEb2Ie3/2KDYetSHMa95YuL9Lm6Cvm6EoLoRJkgW1U6cE7HdbWiTUxRt8+TTPsfblHPViPRXj</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:comingup2dbserver.database.windows.net,1433%3bInitial Catalog=ComingUp_db%3bUser Id=Malikah%40comingup2dbserver%3bPassword=%24Phones21</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApplication1.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:comingup2dbserver.database.windows.net,1433%3bInitial Catalog=ComingUp_db%3bUser Id=Malikah%40comingup2dbserver%3bPassword=%24Phones21</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
